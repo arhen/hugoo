@@ -15,10 +15,15 @@ theme ="hugo-terrassa-theme"
     favicon = "favicon.ico" # Relative URL
     logo = "" # Absolute URL
 
+
+    # Add custom css or js. Base url will reserved at /public/assets
+    customCSS = [] #ex: ['css/test.css', ''css/test2.css'']
+    customJS = [] #ex: ['js/test.js', ''js/test2.js'']
+
 [params.hero]
     textColor = "" # Empty for default color
 
-[params.cta] # Call To Action 
+[params.cta] # Call To Action
     show = true
     cta = "Contact"
     link = "contact" # Relative URL
